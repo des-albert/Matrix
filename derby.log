@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Feb 19 21:34:15 PST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0169-0965-b7bf-00000f27d7e0 
+on database directory D:\Data\Java\IdeaProjects\Matrix\matrix with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77b52d12 
+Loaded from file:/D:/Data/Java/IdeaProjects/Matrix/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.2+9-LTS
+user.dir=D:\Data\Java\IdeaProjects\Matrix
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

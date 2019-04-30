@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+
+<AnchorPane prefHeight="555.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.db.AssemblyShow">
+   <children>
+      <Button fx:id="buttonAssemblyClose" layoutX="616.0" layoutY="40.0" mnemonicParsing="false" onAction="#ButtonAssemblyCloseOnAction" text="Close" />
+      <TableView fx:id="AssemblyTableView" layoutX="23.0" layoutY="40.0" prefHeight="476.0" prefWidth="525.0">
+        <columns>
+            <TableColumn fx:id="columnAssemblyName" editable="false" prefWidth="301.0" text="Assembly Name" />
+            <TableColumn fx:id="columnAssemblyMaxCount" editable="false" prefWidth="80.0" text="Max Count" />
+            <TableColumn fx:id="columnAssemblyType" editable="false" prefWidth="50.0" text="Type" />
+            <TableColumn fx:id="columnAssemblyContents" editable="false" prefWidth="80.0" text="Contents" />
+        </columns>
+      </TableView>
+      <Label fx:id="labelComponent" layoutX="23.0" layoutY="14.0" prefHeight="17.0" prefWidth="261.0" />
+   </children>
+</AnchorPane>

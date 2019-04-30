@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="406.0" prefWidth="550.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.db.updateComponent">
+    <children>
+        <Label layoutX="41.0" layoutY="33.0" stylesheets="@../../css/style.css" text="Update Component" />
+        <TextField fx:id="TextComponentCode" layoutX="41.0" layoutY="73.0" prefHeight="26.0" prefWidth="227.0" promptText="Code" />
+        <Button fx:id="ButtonUpdateComponentClose" layoutX="400.0" layoutY="204.0" mnemonicParsing="false" onAction="#ButtonUpdateComponentCloseAction" styleClass="smallButton" stylesheets="@../../css/style.css" text="Close" />
+        <TextField fx:id="TextComponentDescription" layoutX="41.0" layoutY="114.0" prefHeight="31.0" prefWidth="430.0" promptText="Description" />
+        <TextField fx:id="TextCategory" layoutX="41.0" layoutY="155.0" prefHeight="26.0" prefWidth="205.0" promptText="Category" />
+        <Button fx:id="ButtonUpdateComponent" layoutX="381.0" layoutY="44.0" mnemonicParsing="false" onAction="#ButtonUpdateComponentAction" prefHeight="31.0" prefWidth="92.0" styleClass="smallButton" stylesheets="@../../css/style.css" text="Update" />
+        <Label fx:id="LabelUpdateStatus" layoutX="21.0" layoutY="369.0" prefHeight="22.0" prefWidth="508.0" />
+        <TextField fx:id="TextTotalCount_A" layoutX="264.0" layoutY="204.0" prefHeight="31.0" prefWidth="109.0" promptText="Count" />
+        <ComboBox fx:id="comboTotal_A" layoutX="41.0" layoutY="204.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="comboTotal_B" layoutX="41.0" layoutY="242.0" prefHeight="31.0" prefWidth="187.0" />
+      <TextField fx:id="TextTotalCount_B" layoutX="264.0" layoutY="242.0" prefHeight="31.0" prefWidth="109.0" promptText="Count" />
+      <ComboBox fx:id="comboTotal_D" layoutX="41.0" layoutY="326.0" prefHeight="31.0" prefWidth="187.0" />
+      <ComboBox fx:id="comboTotal_C" layoutX="41.0" layoutY="283.0" prefHeight="31.0" prefWidth="187.0" />
+      <TextField fx:id="TextTotalCount_C" layoutX="264.0" layoutY="283.0" prefHeight="31.0" prefWidth="109.0" promptText="Count" />
+      <TextField fx:id="TextTotalCount_D" layoutX="264.0" layoutY="326.0" prefHeight="31.0" prefWidth="109.0" promptText="Count" />
+    </children>
+</AnchorPane>

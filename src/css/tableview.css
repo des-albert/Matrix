@@ -1,0 +1,6 @@
+.table-value {
+  -fx-alignment: CENTER-RIGHT;
+}
+.table-name {
+  -fx-alignment: CENTER-LEFT;
+}

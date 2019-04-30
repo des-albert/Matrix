@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="391.0" prefWidth="538.0" styleClass="root" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.db.addComponent">
+    <children>
+        <Label layoutX="41.0" layoutY="33.0" prefHeight="26.0" prefWidth="130.0" styleClass="label-blue" stylesheets="@../../css/style.css" text="Add Atom" />
+        <TextField fx:id="TextPartCode" layoutX="41.0" layoutY="73.0" prefHeight="26.0" prefWidth="195.0" promptText="Code" />
+        <Button fx:id="ButtonAddPartDone" layoutX="400.0" layoutY="204.0" mnemonicParsing="false" onAction="#ButtonAddPartDoneAction" styleClass="button" stylesheets="@../../css/style.css" text="Close" />
+        <TextField fx:id="TextPartDescription" layoutX="41.0" layoutY="114.0" prefHeight="31.0" prefWidth="430.0" promptText="Description" />
+        <TextField fx:id="TextPartCat" layoutX="41.0" layoutY="155.0" promptText="Category" />
+        <Button fx:id="ButtonAddPart" layoutX="388.0" layoutY="46.0" mnemonicParsing="false" onAction="#ButtonAddPartAction" prefHeight="42.0" prefWidth="92.0" styleClass="label-blue" stylesheets="@../../css/style.css" text="Add" />
+        <Label fx:id="LabelAddStatus" layoutX="43.0" layoutY="345.0" prefHeight="31.0" prefWidth="471.0" />
+      <ComboBox fx:id="combo_Total_A" editable="true" layoutX="41.0" layoutY="195.0" prefWidth="150.0" />
+      <ComboBox fx:id="combo_Total_B" editable="true" layoutX="41.0" layoutY="232.0" prefWidth="150.0" />
+      <ComboBox fx:id="combo_Total_C" editable="true" layoutX="42.0" layoutY="269.0" prefWidth="150.0" />
+      <ComboBox fx:id="combo_Total_D" editable="true" layoutX="42.0" layoutY="308.0" prefWidth="150.0" />
+      <TextField fx:id="Text_Count_A" layoutX="236.0" layoutY="188.0" prefHeight="31.0" prefWidth="85.0" promptText="Count A" />
+      <TextField fx:id="Text_Count_B" layoutX="236.0" layoutY="230.0" prefHeight="31.0" prefWidth="85.0" promptText="Count B" />
+      <TextField fx:id="Text_Count_C" layoutX="236.0" layoutY="266.0" prefHeight="31.0" prefWidth="85.0" promptText="Count C" />
+      <TextField fx:id="Text_Count_D" layoutX="236.0" layoutY="305.0" prefHeight="31.0" prefWidth="85.0" promptText="Count D" />
+    </children>
+</AnchorPane>
